@@ -1,0 +1,26 @@
+.navigation__unorderedList {
+  list-style-type: none;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin: 5px;
+}
+
+.navigation__link {
+  color: rgb(146, 30, 45);
+  background-color: #f8f2dd;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid;
+}
+
+.navigation__link:focus {
+  outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+  color: rgb(49, 32, 21);
+  outline: none;
+}

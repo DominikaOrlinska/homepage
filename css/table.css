@@ -1,0 +1,23 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table__caption {
+  margin-bottom: 10px;
+}
+
+.table__tableRow:hover {
+  background-color: #ddd;
+}
+
+.table__tableCell {
+  border: 2px double rebeccapurple;
+  padding: 15px;
+  text-align: center;
+}
+
+.table__tableCell--tableHeader {
+  background-color: rgb(146, 30, 45);
+  color: white;
+}

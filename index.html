@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strona o mnie</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body js-body">
+    <header>
+      <h1 class="header">Dominika Orlińska - wizytówka</h1>
+    </header>
+    <p>
+      <button class="button js-button">
+        Włącz <span class="js-themeName">ciemny</span> motyw
+      </button>
+    </p>
+    <img
+      class="image"
+      width="200"
+      src="images/moje_zdjęcie.jpg"
+      alt="Dominika Orlińska"
+    />
+
+    <nav class="navigation">
+      <ul class="navigation__unorderedList">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#sciezka-zawodowa"
+            >Ścieżka zawodowa</a
+          >
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#prywatnie">Prywatnie</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#moje-podroze">Moje podróże</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section class="section" id="sciezka-zawodowa">
+        <h2 class="section__header">Ścieżka zawodowa</h2>
+        <div class="section__text">
+          <p>
+            Urodziłam się 15.09.1994 r. w Katowicach. Ukończyłam
+            <span class="section__textSpecial"
+              >ZPSM POSM I st. im. Stanisława Moniuszki</span
+            >
+            oraz
+            <span class="section__textSpecial"
+              >ZPSM POSM II st. im. Karola Szymanowskiego</span
+            >. Pochodzę z rodziny o tradycjach muzycznych i od najmłodszych lat
+            życia wykazywałam takie zainteresowania, więc od pierwszej klasy
+            Szkoły Podstawowej uczyłam się gry na skrzypcach.
+          </p>
+          <p>
+            Kontynuowałam naukę gry na skrzypcach w klasie dr hab. Piotra
+            Tarcholika na
+            <span class="section__textSpecial"
+              >Akademii Muzycznej im. Krzysztofa Pendereckiego w Krakowie</span
+            >. Podczas 5 lat studiów miałam możliwość grania w zespołach zarówno
+            kameralnych jak i orkiestrowych, uczestniczyłam także w lekcjach i
+            kursach mistrzowskich ze światowej klasy muzykami z Polski oraz z
+            innych krajów. Na 1 roku studiów magisterskich wyjechałam na 7
+            miesięcy do
+            <span class="section__textSpecial"
+              >Guildhall School of Music and Drama</span
+            >
+            w Londynie w ramach programu Erasmus+.
+          </p>
+          <p>
+            Po zakończeniu studiów rozpoczęłam pracę jako skrzypaczka w Polskiej
+            Orkiestrze Sinfonia Iuventus im. Jerzego Semkowa w Warszawie, gdzie
+            pracuję do dnia dzisiejszego.
+          </p>
+        </div>
+      </section>
+      <section class="section" id="prywatnie">
+        <h3 class="section__header">Prywatnie</h3>
+
+        <div class="section__text">
+          Od 2 lat jestem Mamą Mai, a za 4 miesiące pojawi się też Tymuś. Nowa
+          rola mocno wpłynęła na moje życie codzienne, aczkolwiek bardzo staram
+          się nie rezygnować z planów, marzeń i swoich zainteresowań. Bardzo
+          lubię pływać, grać w tenisa, czytać książki. Ponadto kocham też
+          podróżować i wraz z Mężem Marcinem i naszą córką udaje nam się
+          zwiedzać Polskę i świat. Córka już była z nami we Włoszech, w Anglii i
+          Turcji. Wierzę, że jeszcze wiele pięknych wyjazdów przed nami.
+        </div>
+      </section>
+      <section class="section" id="moje-podroze">
+        <h3 class="section__header">Moje podróże</h3>
+        <table class="table">
+          <caption class="table__caption">
+            Moje podróże
+          </caption>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="col"
+            >
+              Kraj wyjazdu
+            </th>
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="col"
+            >
+              Rok wyjazdu
+            </th>
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="col"
+            >
+              Charakter wyjazdu
+            </th>
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="col"
+            >
+              Długość wyjazdu
+            </th>
+          </tr>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="row"
+            >
+              Chorwacja
+            </th>
+            <td class="table__tableCell">2009</td>
+            <td class="table__tableCell">wypoczynkowy</td>
+            <td class="table__tableCell">14 dni</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="row"
+            >
+              Niemcy
+            </th>
+            <td class="table__tableCell">2014</td>
+            <td class="table__tableCell" rowspan="2">służbowy</td>
+            <td class="table__tableCell">5 dni</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="row"
+            >
+              Austria
+            </th>
+            <td class="table__tableCell">2015</td>
+            <td class="table__tableCell">2 dni</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="row"
+            >
+              Anglia
+            </th>
+            <td class="table__tableCell">2016/2017</td>
+            <td class="table__tableCell">edukacyjny</td>
+            <td class="table__tableCell">7 miesięcy</td>
+          </tr>
+          <tr class="table__tableRow">
+            <th
+              class="table__tableCell table__tableCell--tableHeader"
+              scope="row"
+            >
+              Włochy
+            </th>
+            <td class="table__tableCell">2022</td>
+            <td class="table__tableCell">wypoczynkowy</td>
+            <td class="table__tableCell">4 dni</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      Dominika 2023 adres e-mail: dominika.kusek@wp.pl
+    </footer>
+  </body>
+</html>

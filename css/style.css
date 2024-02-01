@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.image {
+  display: block;
+  margin: auto auto 20px auto;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+}
+
+.header {
+  color: rgb(49, 32, 21);
+  background-color: hsla(312, 59%, 82%, 0.725);
+  text-align: center;
+  border: 1px brown groove;
+  border-radius: 10%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 3px 2px #efece1;
+  font-weight: 600;
+  font-style: italic;
+  overflow-x: auto;
+}
+
+.footer {
+  background-color: #f8f2dd;
+  border: 1px solid rebeccapurple;
+  text-align: center;
+  margin: 20px;
+}
+
+.body {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.4;
+  background-color: #eeee;
+}
+
+.body--dark {
+  color: #eeee;
+  background-color: #393333;
+}

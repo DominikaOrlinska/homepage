@@ -1,0 +1,21 @@
+.section__header {
+  color: rgb(49, 32, 21);
+  background-color: hsla(312, 59%, 82%, 0.725);
+  text-align: center;
+  border: 1px brown groove;
+  border-radius: 10%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  box-shadow: 2px 3px 3px 2px #efece1;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.section__text {
+  text-shadow: 1px 2px 4px #c2beb1be;
+  margin: 20px;
+}
+
+.section__textSpecial {
+  color: rgb(185, 95, 107);
+}
