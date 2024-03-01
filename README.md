@@ -2,7 +2,7 @@
 ## Demo
 https://dominikaorlinska.github.io/homepage/
 ## Content
- Hello! Thanks for watching my personal homepage. You can find there a few words about me, my life and my passions. Have a nice time :)
+ Hello! Thanks for taking the time to read my homepage. Here you can find a few words about me, my life and my passions. Have a nice time :)
 
 ![My homepage gif](images/Animation.gif)
 
